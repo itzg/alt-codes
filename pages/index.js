@@ -13,10 +13,17 @@ function Home() {
           <AltCodes/>
         </div>
 
-        <div>
-          Idea by enenbee, Developed by itzg
+        <div className="credits">
+          Idea by <a href="https://github.com/enenbee" target="_blank">enenbee</a>, Developed by <a href="https://github.com/itzg" target="_blank">itzg</a>
         </div>
 
+        {/*language=css*/}
+        <style jsx>{`
+          .credits {
+            margin-top: 10px;
+            opacity: 50%;
+          }
+        `}</style>
         {/*language=css*/}
         <style global jsx>{`
           body {
