@@ -13,6 +13,10 @@ function Home() {
           <AltCodes/>
         </div>
 
+        <div>
+          Idea by enenbee, Developed by itzg
+        </div>
+
         {/*language=css*/}
         <style global jsx>{`
           body {
