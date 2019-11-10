@@ -16,7 +16,13 @@ function AltCodes() {
     setGivenCode(given);
 
     let index = Number(evt.target.value) % 256;
-    setConverted(conversions[index]);
+
+    if (index >= conversions.length) {
+      // Handle the ones that are TODO
+      setConverted('Alt+'+index.toString());
+    } else {
+      setConverted(conversions[index]);
+    }
   }
 
   return (
