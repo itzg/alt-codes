@@ -7,7 +7,9 @@
 npm run dev
 ```
 
-## Deploying to Zeit Now
+## Deploying to ZEIT Now
+
+Deployments can be [integrated with Git](https://zeit.co/docs/v2/git-integration/) or manually deployed using:
 
 ```shell
 npm run deploy
