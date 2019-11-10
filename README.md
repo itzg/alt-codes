@@ -1,4 +1,6 @@
 
+[Try it out](https://alt-codes.itzgeoff.now.sh/)
+
 ## Running locally
 
 ```shell
